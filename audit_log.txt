@@ -1,0 +1,23 @@
+[2026-05-01 17:58:24.183000Z] Pasajero registrado: Pasajero 1 (id=1)
+[2026-05-01 17:58:24.186000Z] Pasajero registrado: Pasajero 2 (id=2)
+[2026-05-01 17:58:24.186000Z] Pasajero registrado: Pasajero 3 (id=3)
+[2026-05-01 17:58:24.186000Z] Pasajero registrado: Pasajero 4 (id=4)
+[2026-05-01 17:58:24.187000Z] Pasajero registrado: Pasajero 5 (id=5)
+[2026-05-01 17:58:24.187000Z] Pasajero registrado: Pasajero 6 (id=6)
+[2026-05-01 17:58:24.187000Z] Pasajero registrado: Pasajero 7 (id=7)
+[2026-05-01 17:58:24.187000Z] Pasajero registrado: Pasajero 8 (id=8)
+[2026-05-01 17:58:24.187000Z] Pasajero registrado: Pasajero 9 (id=9)
+[2026-05-01 17:58:24.187000Z] Pasajero registrado: Pasajero 10 (id=10)
+[2026-05-01 17:58:24.187000Z] Asiento 1A reservado por pasajero 1 (reserva=1)
+[2026-05-01 17:58:25.189000Z] Reserva 1 confirmada
+[2026-05-01 17:58:25.189000Z] Asiento 2B reservado por pasajero 2 (reserva=2)
+[2026-05-01 17:58:25.189000Z] Reserva 2 cancelada
+[2026-05-01 17:58:25.189000Z] Asiento 3C reservado por pasajero 3 (reserva=3)
+[2026-05-01 17:58:55.195000Z] Reserva 3 expirada automaticamente
+[2026-05-01 17:58:57.200000Z] Asiento 4D reservado por pasajero 4 (reserva=4)
+[2026-05-01 17:58:57.200000Z] Intento de reserva fallido para asiento 4D: seat_not_available
+[2026-05-01 17:58:57.200000Z] Intento de reserva fallido para asiento 4D: seat_not_available
+[2026-05-01 17:58:57.200000Z] Intento de reserva fallido para asiento 4D: seat_not_available
+[2026-05-01 17:58:57.200000Z] Intento de reserva fallido para asiento 4D: seat_not_available
+[2026-05-01 17:58:57.200000Z] Intento de reserva fallido para asiento 4D: seat_not_available
+[2026-05-01 17:58:57.200000Z] Intento de reserva fallido para asiento 4D: seat_not_available
