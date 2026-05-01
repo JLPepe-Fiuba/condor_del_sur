@@ -1,9 +1,9 @@
 # Sistema de Reservas — Cóndor del Sur
 
-**TP1 — Taller de Programación — Cátedra Camejo**
-Pepe, Jonathan Leonel — Padrón 94.692
+**TP1 — Taller de Programación — Cátedra Camejo**  
+*Pepe, Jonathan Leonel — Padrón 94.692*
 
-Sistema de reserva de asientos para la aerolínea ficticia "Cóndor del Sur".
+Sistema de reserva de asientos para la aerolínea ficticia *Cóndor del Sur*.
 Implementado en Elixir usando procesos manuales sin OTP.
 
 - **Enunciado oficial del dominio del problema**: https://hackmd.io/@7k6x0-lQSIe6vtz2KwjLAw/SkaAPM4pbx
@@ -48,5 +48,5 @@ La demo dura aproximadamente 35 segundos porque incluye un caso de expiración a
 
 El `%Flight{}` vive dentro de `FlightServer` y solo ese proceso puede modificarlo. Los mensajes se procesan de a uno desde la mailbox, por lo que si dos pasajeros compiten por el mismo asiento, el segundo en ser atendido ya lo ve como `:reserved`. Además, `FlightServer` usa `Process.monitor` sobre cada worker de expiración que lanza. Finalmente, los procesos están registrados con nombre (`register`): 
 - `FlightServer` como `:flight_server`.
-- `AuditServer` como `:audit_server`.
+- `AuditServer` como `:audit_server`.  
 Esto permite enviarles mensajes sin necesidad de guardar el PID.
