@@ -1,9 +1,10 @@
-# Sistema de Reservas - Cóndor del Sur 
+# Sistema de Reservas — Cóndor del Sur
 
-TP1 — Taller de Programación - Cátedra Camejo
+**TP1 — Taller de Programación — Cátedra Camejo**
+Pepe, Jonathan Leonel — Padrón 94.692
 
-Sistema de reserva de asientos para la aerolínea ficticia 'Cóndor del Sur'.
-Implementado en Elixir usando procesos manuales.
+Sistema de reserva de asientos para la aerolínea ficticia "Cóndor del Sur".
+Implementado en Elixir usando procesos manuales sin OTP.
 
 - **Enunciado oficial del dominio del problema**: https://hackmd.io/@7k6x0-lQSIe6vtz2KwjLAw/SkaAPM4pbx
 
@@ -13,6 +14,12 @@ Implementado en Elixir usando procesos manuales.
 
 ```bash
 mix compile
+```
+
+## Correr los Test
+
+```bash
+mix test
 ```
 
 ## Correr la Demo
@@ -26,12 +33,6 @@ Demo.run()
 ```
 
 La demo dura aproximadamente 35 segundos porque incluye un caso de expiración automática de reserva con segundos reales de espera.
-
-## Correr los Test
-
-```bash
-mix test
-```
 
 ---
 
